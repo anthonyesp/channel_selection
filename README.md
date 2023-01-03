@@ -23,10 +23,12 @@ The datasets exploited in these studies are:
 
 ## how to use
 In order to reproduce our results as a starting point for your analyses, you can simply follow these steps:
-1. download data from above links
-2. download scripts in this repository
-3. ...
-
+1. download a folder from this repository depending on the study of interest
+    it would be recommended to keep its structure as is, and include to path eventually subfolders
+2. download data from above links and put it in the downloaded folder
+    you could include it as a subfolder and add it to path
+3. look for the main script and play it
+4. eventually install missing tools (though you should have all functions already)
 5. enjoy
 
 ## further details
