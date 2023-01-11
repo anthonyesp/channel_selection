@@ -20,11 +20,13 @@ The datasets exploited in these studies are:
 - BCI competition IV dataset 2a: https://www.bbci.de/competition/iv/#datasets
 - BCI competition III dataset 3a: https://www.bbci.de/competition/iii/#data_set_iiia
 
+A folder with the scripts of FBCSP algorithm is also included. These are needed for the investigation of the relation between number of channels and classification accuracy.
 
 ## how to use
 In order to reproduce our results as a starting point for your analyses, you can simply follow these steps:
 1. download a folder from this repository depending on the study of interest
     it would be recommended to keep its structure as is, and include to path eventually subfolders
+    for channel selection on datasets 2a and 3a you must also download the "FBCSP algorithm" folder
 2. download data from above links and put it in the downloaded folder
     you could include it as a subfolder and add it to path
 3. look for the main script and play it
