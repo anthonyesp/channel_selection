@@ -17,7 +17,7 @@ The code provided in this repository thus applies to the classification of EEG s
 - investigation of the relation between number of channels and classification accuracy
 
 The datasets exploited in these studies are:
-- BCI competition IV dataset 2a: http://bnci-horizon-2020.eu/database/data-sets
+- BCI competition IV dataset 2a: http://bnci-horizon-2020.eu/database/data-sets (Four class motor imagery)
 - BCI competition III dataset 3a: https://www.bbci.de/competition/iii/#data_set_iiia
 
 A folder with the scripts of FBCSP algorithm is also included. These are needed for the investigation of the relation between number of channels and classification accuracy.
