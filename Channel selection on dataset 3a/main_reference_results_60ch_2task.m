@@ -62,9 +62,9 @@ for s = 1:n_subjects
     [imagery, classes, f_samp]  = extractionTraining(data, runs, ch, trials, tmin, tmax);
     
     if (exist('hd','var'))
-        EEG_T = filteBank(imagery,f_samp,hd);
+        EEG_T = filterBank(imagery,f_samp,hd);
     else
-        [EEG_T, hd] = filteBank(imagery,f_samp,[]); 
+        [EEG_T, hd] = filterBank(imagery,f_samp,[]); 
     end
     CLASS_T = classes;
     
@@ -76,9 +76,9 @@ for s = 1:n_subjects
     [imagery, classes, f_samp]  = extractionEvaluation(data, runs, ch, trials, tmin, tmax);
     
     if (exist('hd','var'))
-        EEG_E = filteBank(imagery,f_samp,hd);
+        EEG_E = filterBank(imagery,f_samp,hd);
     else
-        [EEG_E, hd] = filteBank(imagery,f_samp,[]); 
+        [EEG_E, hd] = filterBank(imagery,f_samp,[]); 
     end
     CLASS_E = classes;
         
